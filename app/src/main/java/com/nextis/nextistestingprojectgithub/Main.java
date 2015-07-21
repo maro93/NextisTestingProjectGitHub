@@ -14,7 +14,7 @@ public class Main extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        int testtom = 33;
+        int testtom = 69;
     }
 
     @Override
