@@ -4,6 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 public class Main extends AppCompatActivity
 {
@@ -13,6 +14,8 @@ public class Main extends AppCompatActivity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        Toast.makeText(this, "Nový Toast!!!", Toast.LENGTH_SHORT).show();
     }
 
     @Override
