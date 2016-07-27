@@ -15,6 +15,8 @@ public class Main extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        int testtom = 69;
+
         Toast.makeText(this, "Nový Toast!!!", Toast.LENGTH_SHORT).show();
         Toast.makeText(this, "Nový Toast!!!", Toast.LENGTH_SHORT).show();
     }
