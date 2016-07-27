@@ -19,6 +19,8 @@ public class Main extends AppCompatActivity
 
         Toast.makeText(this, "Nový Toast!!!", Toast.LENGTH_SHORT).show();
         Toast.makeText(this, "Nový Toast!!!", Toast.LENGTH_SHORT).show();
+
+        int testmaro = 53;
     }
 
     @Override
